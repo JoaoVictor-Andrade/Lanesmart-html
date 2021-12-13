@@ -1,0 +1,177 @@
+    @import url(../googlemaps.css);
+   
+    
+   
+   
+   
+   
+   
+   
+    p{
+      font-family: 'roboto';
+      text-align: justify;
+      font-size: 17px;
+      margin: 35px;
+    }
+   
+
+    .container-fluid-img{
+      background-color: rgb(0, 0, 0);
+      color: white;
+      padding-bottom: 40px;
+      padding-top: 25px;
+   
+    }
+    
+
+
+    /* Largura da barra de rolagem */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+  background-color: #0303031f;
+  border-left: 1px solid rgba(0, 0, 0, 0.027)
+}
+
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #000000fd
+}
+
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background-color: #000000d3
+}
+      
+     
+      
+      /*  html,body  */
+      html,body{
+        font-family: 'Roboto', sans-serif;
+        height: 100%;    
+         padding: 0%;
+         margin: 0%;
+         background-color: rgba(255, 255, 255, 0.171);
+      }
+       p{
+         text-align: center;
+         font-family: 'roboto';
+         font-size: 18px;
+       } 
+
+       .caixa-home{
+        padding: 17px;
+        background-color: #000000e5;
+        border-bottom: 1px solid rgba(8, 8, 8, 0.548);
+        border-top: 1px solid rgba(8, 8, 8, 0.11);
+        text-align: center;
+        font-family: 'roboto';
+        color: white;
+    }
+    
+    div.video{
+      
+    margin: 0px 0px 0px -0px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+   
+     }
+     div.video > iframe{
+       position: absolute;
+       top: 5%;
+       left: 5%;
+       width: 90%;
+       height: 90%;
+     }
+  
+      /* header*/
+  #header{
+    width: 100%;
+    background: transparent;
+    transition: background ease-out 0.2s;
+    background-color: black;
+    }
+    #header, .navbar-collapse{
+        width: auto;
+    }
+    #header, .navbar-link{
+            text-transform: uppercase;
+            font-weight: 500;
+            padding-left: 0;
+            padding-right: 0;
+            color:black;
+            border-bottom:solid 4px transparent;
+            font-size: 14px;
+            
+          }
+        #header .nav-link:hover {
+          color: #0468ff;
+        }
+    #header, .nav-link:hover {
+    color: #0468ff;
+    }
+    
+    #nav-link .dropdown-toggle{
+    padding-right: 15px;
+    }
+    
+
+
+
+    @media (min-width: 992px) {
+      #header .nav-link {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+    
+    @media (max-width: 991.98px) {
+      #header .navbar-brand img {
+        max-width: 180px;
+      }
+      
+      #header .navbar-collapse {
+        width: 100%;
+      }
+   
+       
+  /* variáveis de cores */
+  :root {
+  --primary:black;
+  --dark: #0468ff;
+  --terceira:#f1f1f1;
+  }
+   
+  /* google maps responsivo */
+  .map-responsive{
+
+    overflow:hidden;
+  
+    padding:bottom 50.25%;
+  
+    position:relative;
+  
+    height:0;
+  }
+  .map-responsive iframe{
+  
+    left:0;
+  
+    top:0;
+  
+    height:100%;
+  
+    width:100%;
+  
+    position:absolute;
+
+
+   }
+
+   
+ 
